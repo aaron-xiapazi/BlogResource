@@ -1,0 +1,234 @@
+# menu
+menu:
+  Home: .
+  Archives: archives  # 归档
+  Categories: categories  # 分类
+  Tags: tags  # 标签
+  Repository: repository  # github repositories
+  # Books: books  # 豆瓣书单
+  #Links: links  # 友链
+  #About: about  # 关于
+  Nav: nav #导航
+
+# Enable/Disable menu icons
+menu_icons:
+  enable: true  # 是否启用导航菜单图标
+  home: icon-home-fill
+  archives: icon-archives-fill
+  categories: icon-folder
+  tags: icon-tags
+  repository: icon-project
+  books: icon-book-fill
+  links: icon-friendship
+  about: icon-cup-fill
+  nav: icon-eye-fill
+
+# rss
+rss: /atom.xml
+
+# Site
+site:
+  logo:
+    enabled: true
+    width: 40
+    height: 40
+    url: ../images/logo.png
+  title: 虾爬子的Blog # 页面title
+  favicon: /favicon.png
+  board: <p>WeChat：Tongziqi1997</p> # 站点公告
+  copyright: true # 底部版权信息
+
+# config
+config:
+  skin:  # 主题颜色 theme-black theme-blue theme-green theme-purple
+  layout: main-center # 布局方式 main-left main-center main-right
+  toc: true # 是否开启文章章节目录导航
+  menu_highlight: false # 是否开启当前菜单高亮显示
+  thumbnail: false # enable posts thumbnail, options: true, false
+  excerpt_link: Read More #列表页里Read more链接名称，可以替换成’查看更多‘等。
+
+# Pagination
+pagination:
+  number: false
+  prev:
+    alwayShow: true
+  next:
+    alwayShow: true
+
+# Sidebar   #站点右边栏，可以调整顺序和增减内容，会自动调用主题layout/_widget目录下的同名文件
+sidebar: right
+widgets:
+  - board
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Fancybox support
+fancybox: true
+
+# Search
+search:
+  insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search
+
+# Donate
+donate:
+  enable: false
+  # 微信打赏
+  wechatpay:
+    qrcode: images/donate/wechatpayimg.jpeg
+    title: 微信支付
+  # 支付宝打赏
+  alipay:
+    qrcode: images/donate/alipayimg.jpeg
+    title: 支付宝
+
+# Share
+# weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+share:
+  enable: false  # 是否启用分享
+  sites: facebook,wechat  # PC端显示的分享图标
+  mobile_sites: facebook,wechat  # 移动端显示的分享图标
+
+# Github
+github:
+  username: CreaterAlan  # github username
+
+# Comment
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+comment:
+  type: false  # 启用哪种评论系统
+  disqus:  # enter disqus shortname here
+  youyan:
+    uid:  # enter youyan uid
+  livere:
+    uid: # enter youyan uid
+  gitment:
+    githubID:
+    repo:
+    ClientID:
+    ClientSecret:
+    lazy: false
+  gitalk: # gitalk. https://gitalk.github.io/
+    owner: CreaterAlan #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: CreaterAlan #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo: youyunyin.github.io #必须. GitHub repository.
+    ClientID: c7ebd7a808368f59044a #必须. GitHub Application Client ID.
+    ClientSecret: c6d704f7a1e8a0b237f3ace7fda18801d8ab8d39 #必须. GitHub Application Client Secret.
+  valine: # Valine. https://valine.js.org
+    appid:  # your leancloud application appid
+    appkey:  # your leancloud application appkey
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    verify: false # Verification code
+    placeholder: Just go go # comment box placeholder
+    avatar: mm # gravatar style
+    meta: nick,mail,link # custom comment header
+    pageSize: 10 # pagination size
+    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+
+douban:
+  user: # 豆瓣用户名
+  start: 0 # 从哪一条记录开始
+  count: 100 # 获取豆瓣书单数据条数
+
+# PV
+pv:
+  busuanzi:
+    enable: false  # 不蒜子统计
+  leancloud:
+    enable: false  # leancloud统计
+    app_id: # leancloud <AppID>
+    app_key: # leancloud <AppKey>
+
+# wordcount
+postCount:
+  enable: false
+  wordcount: true  # 文章字数统计
+  min2read: true  # 阅读时长预计
+
+# Plugins
+plugins:
+  google_analytics: # enter the tracking ID for your Google Analytics
+  google_site_verification: # enter Google site verification code
+  baidu_analytics: # enter Baidu Analytics hash key
+  tencent_analytics:
+
+# Miscellaneous
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# profile
+profile:
+  enabled: true # Whether to show profile bar
+  avatar: images/avatar.png
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author: 虾爬子
+  author_title: Life is fantastic!
+  author_description: 我知道你会来，所以我等
+  location: 杭州, 中国
+  follow: 
+  # Social Links
+  social:
+    links:
+      github: https://github.com/CreaterAlan
+      # weibo: http://weibo.com/cofess
+      twitter: https://twitter.com/LaNgElmcIBFM0mY
+      facebook: https://www.facebook.com/profile.php?id=100024555980324
+      #dribbble: https://dribbble.com/xiapazi
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
+  # My Skills
+  skills:
+    Vue: ★★★☆☆
+    NodeJs:
+    Git: #★★★☆☆
+    Java: 
+    Spring MVC:
+    Python:
+    Spark: 
+
+  # My Personal Links
+  # links:
+  #   Github: https://github.com/cofess
+  #   Blog: http://blog.cofess.com
+  #   微博: http://weibo.com/cofess
+  #   花瓣: http://huaban.com/cofess
+  #   Behance: https://www.behance.net/cofess
+  # My Personal Labels
+  labels:
+    - PC前端
+    - 移动web
+    - java Web
+    - 全栈
+  # My Personal Works
+  works:
+    维护云:
+      link: http://umc.yonyou.com
+      date: 2015
+    Angularjs技术库:
+      link: http://wangzhikui.github.io/angularjs/index.html
+      date: 2016
+    DataFace(在研):
+      link: 
+      date: 2018
+  # My Personal Projects
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
