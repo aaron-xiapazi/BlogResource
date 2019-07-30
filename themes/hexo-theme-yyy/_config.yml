@@ -59,11 +59,12 @@ pagination:
 sidebar: right
 widgets:
   - board
+  - recent_posts
   - category
   - tag
   - tagcloud
   - archive
-  - recent_posts
+  
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -111,7 +112,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: false  # 启用哪种评论系统
+  type: gitalk  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan:
     uid:  # enter youyan uid
@@ -126,9 +127,9 @@ comment:
   gitalk: # gitalk. https://gitalk.github.io/
     owner: CreaterAlan #必须. GitHub repository 所有者，可以是个人或者组织。
     admin: CreaterAlan #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo: youyunyin.github.io #必须. GitHub repository.
-    ClientID: c7ebd7a808368f59044a #必须. GitHub Application Client ID.
-    ClientSecret: c6d704f7a1e8a0b237f3ace7fda18801d8ab8d39 #必须. GitHub Application Client Secret.
+    repo: CreaterAlan.github.io #必须. GitHub repository.
+    ClientID: f7f6c1489f7b9577695a #必须. GitHub Application Client ID.
+    ClientSecret: b019b16cf5d3a51b41d175a5b786e5f3bba3bf0a #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
@@ -178,9 +179,9 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 虾爬子
+  author: 佟子琦
   author_title: Life is fantastic!
-  author_description: 我知道你会来，所以我等
+  author_description: 让我们结伴而行，去北方南方西方。
   location: 杭州, 中国
   follow: 
   # Social Links
