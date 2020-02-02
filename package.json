@@ -6,7 +6,9 @@
     "version": "3.9.0"
   },
   "dependencies": {
+    "gem": "^2.4.3",
     "hexo": "^3.9.0",
+    "hexo-cli": "^3.1.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-baidu-sitemap": "^0.1.5",
@@ -20,6 +22,21 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.1",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "travis": "^0.1.1"
+  },
+  "scripts": {
+    "deploy": "hexo clean && hexo g -d"
+  },
+  "yuqueConfig": {
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
+    "mdNameFormat": "title",
+    "adapter": "hexo",
+    "concurrency": 5,
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "yinzhi",
+    "repo": "blog",
+    "onlyPublished": false
   }
 }
