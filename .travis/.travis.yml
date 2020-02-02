@@ -18,7 +18,6 @@ install:
 - npm install
 script:
 - hexo clean && hexo g -d
-# .travis.yml 配置
 cache:
   directories:
-    - node_modules
+  - node_modules
