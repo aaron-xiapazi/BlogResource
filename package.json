@@ -43,7 +43,7 @@
     "concurrency": 5,
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "xiapazi",
-    "repo": "blog",
+    "repo": "Blog",
     "onlyPublished": false
   }
 }
