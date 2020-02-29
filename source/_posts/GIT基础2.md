@@ -1,5 +1,5 @@
 ---
-title: git基础2
+title: git标签、Stash管理
 categories: 笔记
 tags: [git]
 date: 2020-01-19

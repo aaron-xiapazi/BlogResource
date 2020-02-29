@@ -1,7 +1,7 @@
 ---
-title: Elasticsearch学习
+title: Elasticsearch 实现多字段高亮检索、文件检索、数据同步
 categories: 笔记
-tags: [es]
+tags: [elasticsearch]
 date: 2020-02-09
 ---
 

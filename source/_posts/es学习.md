@@ -1,7 +1,7 @@
 ---
 title: Elasticsearch API学习
 categories: 笔记
-tags: [es]
+tags: [elasticsearch]
 date: 2020-01-26
 ---
 
