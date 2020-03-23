@@ -1,6 +1,6 @@
 ---
-title: git基础操作
-categories: 笔记
+title: git(一)基础操作
+categories: git
 tags: [git]
 date: 2020-01-12
 ---

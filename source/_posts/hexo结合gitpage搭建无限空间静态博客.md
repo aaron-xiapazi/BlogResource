@@ -41,7 +41,7 @@ Git
 到此为止GitPages已经可以使用，提交到wangzhikui.github.io的静态或markdown形式的文件会自动同步到GitPages空间。可通过http://wangzhikui.github.io访问。
 
 # 配置域名(无此需要可跳过)
-## 一、上一步GitPages设置中设置域名如：wushuning.com
+## 一、上一步GitPages设置中设置域名如：xiapazi.co
 
 ## 二、配置域名的A地址和CNAME别名
 
@@ -58,13 +58,13 @@ Git
 安装hexo脚手架工具并使用脚手架创建项目
 ```
 npm install hexo-cli -g
-hexo init wangzhikuiblog
-cd wangzhikuiblog
+hexo init xiapaziBlog
+cd xiapaziBlog
 npm install
 hexo server
 ```
 1. 全局安装脚手架hexo-cli
-2. 创建一个名为wangzhikuiblog的项目
+2. 创建一个名为xiapaziBlog的项目
 3. 进入项目目录
 4. 安装依赖包
 5. 启动服务
@@ -80,12 +80,12 @@ hexo server
 ```
 hexo g
 ```
-则会在项目路径中生成一个public文件夹，里边的内容即为hexo为我们生成的所有静态文件。手动将public里边的所有文件git传到wangzhikui.github.io即可。
+则会在项目路径中生成一个public文件夹，里边的内容即为hexo为我们生成的所有静态文件。手动将public里边的所有文件git传到CreaterAlan.github.io即可。
 
 到此可通过  
-http://wangzhikui.bighub.io  
+http://CreaterAlan.bighub.io  
 或域名（如果配置了）  
-http://wushuning.com  
+http://xiapazi.co  
 访问你的网站。
 
 ## 自动部署
@@ -94,13 +94,13 @@ http://wushuning.com
 deploy:
   type: git
   repo:
-    github: git@github.com:wangzhikui/wangzhikui.github.io.git
+    github: git@github.com:CreaterAlan/CreaterAlan.github.io.git
 ```
 运行命令
 ```
 hexo d
 ```
-则将public下的文件部署到wangzhikui.github.io.git上，我这里只有一个分支master，所以默认，如果要填写分支可以配置repo。建议保持一个分支就可以了。
+则将public下的文件部署到CreaterAlan.github.io.git上，我这里只有一个分支master，所以默认，如果要填写分支可以配置repo。建议保持一个分支就可以了。
 
 hexo d 命令push代码使用的是ssh，所以需要配置github的ssh key 关于key生成配置这里不赘述。
 
@@ -111,7 +111,6 @@ hexo d 命令push代码使用的是ssh，所以需要配置github的ssh key 关�
 
 ![hexo 项目结构](/images/hexo/hexo-project.png)  
 
-[项目源码](https://github.com/wangzhikui/wangzhikuiblog)
 
 ## hexo常用命令
 | 命令 | 简写 | 描述 |
@@ -148,15 +147,3 @@ hexo new test
 打开test.md使用markdown编辑即可。
 ### 手动创建
 直接在_posts文件夹下创建一个test.md的文件即可
-
-# 未完待续  
-
-> hexo的_config.yml和themes_config.yml分别有哪些重要配置
-
-> hexo中博文md文件都有哪些配置
-
-> hexo中使用gitalk添加评论功能
-
-> 一个hexo主题都包含什么，如何入手修改主题满足自己个性化设置
-
-> 本地同时维护两个github账号如何设置ssh key

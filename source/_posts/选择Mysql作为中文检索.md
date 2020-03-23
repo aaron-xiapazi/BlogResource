@@ -1,9 +1,11 @@
 ---
-title: 选择Mysql作为中文检索方案...
+title: Mysql全文检索（一）-简介
 date: 2020-03-07 21:19:42
-tags: 检索
+tags: 搜索
 categories: 笔记
 ---
+
+# 为什么选用MYSQL作为搜索引擎？
 
 
 

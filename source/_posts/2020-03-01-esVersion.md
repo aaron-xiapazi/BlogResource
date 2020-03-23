@@ -1,5 +1,5 @@
 ---
-title: es之文档更新过程中并发冲突问题
+title: Elasticsearch(三)并发冲突
 date: 2020-03-01 00:58:34
 tags: elasticsearch
 categories: 笔记

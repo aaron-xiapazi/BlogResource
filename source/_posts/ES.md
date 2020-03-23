@@ -1,5 +1,5 @@
 ---
-title: Elasticsearch 实现多字段高亮检索、文件检索、数据同步
+title: Elasticsearch(一)Elasticsearch 安装及介绍
 categories: 笔记
 tags: [elasticsearch]
 date: 2020-02-09

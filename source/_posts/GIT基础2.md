@@ -1,15 +1,11 @@
 ---
-title: git标签、Stash管理
+title: git(二)git标签、Stash管理
 categories: 笔记
 tags: [git]
 date: 2020-01-19
 ---
 
 
-
-# GIT基础2
-
- 
 
 ## 标签
 

@@ -1,5 +1,5 @@
 ---
-title: Java原生实现分页方案
+title: JAVA编程基础（一）原生实现分页方案
 categories: java
 tags: [java]
 date: 2015-05-29
