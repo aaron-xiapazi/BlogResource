@@ -1,5 +1,5 @@
 ---
-title: 高效Java-（二）-静态工厂替代构造方法
+title: 高效Java（二） builder模式构造
 date: 2020-04-07 01:31:02
 tags: java
 categories: 
