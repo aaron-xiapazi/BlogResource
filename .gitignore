@@ -5,3 +5,36 @@ db.json
 node_modules/
 public/
 .deploy*/
+/source/_posts/敏捷开发(6)scrum指南总结.md
+/source/_posts/敏捷开发方法(1)scrum.md
+/source/_posts/敏捷开发方法(2)kanban.md
+/source/_posts/敏捷开发方法(3)scrum对比kanban.md
+/source/_posts/敏捷开发方法(4)用户故事.md
+/source/_posts/2020-04-14-高效java-（八）谨慎地重写clone方法.md
+/source/_posts/2020-04-12-高效java-（七）-重写-equals-方法时遵守通用约定.md
+/source/_posts/2020-04-11-linux命令行-（一）-基础篇.md
+/source/_posts/2020-04-11-高效java-（六）-避免使用-Finalizer-和-Cleaner-机制.md
+/source/_posts/2020-04-11-高效java-（六）-使用try-with-resources代替try-finally.md
+/source/_posts/2020-04-10-高效Java（五) 消除过期对象的引用.md
+/source/_posts/2020-04-09-高效Java（四）避免创建不必要的对象.md
+/source/_posts/高效Java（二） builder模式构造.md
+/source/_posts/2020-04-08-高效Java（三）-实现Singleton-属性.md
+/source/_posts/2020-04-06-高效Java-（一）-静态工厂替代构造方法.md
+/source/_posts/2020-04-05-git（三）-rebase把你的线条变整洁.md
+/source/_posts/网络知识 （一）NS,DNS,网关.md
+/source/_posts/AI编程-Hilens-前提篇.md
+/source/_posts/AI编程-Hilens（一） FrameWork简单使用.md
+/source/_posts/Elasticsearch (三) 并发冲突.md
+/source/_posts/Elasticsearch (一) Elasticsearch 安装及介绍.md
+/source/_posts/Elasticsearch (二) API的使用.md
+/source/_posts/git (一) 基础操作.md
+/source/_posts/git (二) git标签、Stash管理.md
+/source/_posts/Mysql全文检索（二）停用词.md
+/source/_posts/Mysql全文检索（一）简介.md
+/source/_posts/2020-03-28-Jenkins-一-您的第一个Pipeline.md
+/source/_posts/JAVA编程基础（二）函数式编程.md
+/source/_posts/JAVA编程基础（二）Java性能调优.md
+/source/_posts/JAVA编程基础（一）原生实现分页方案.md
+/source/_posts/hexo结合gitpage搭建无限空间静态博客.md
+/source/_posts/敏捷开发(5)Review规范.md
+/source/_posts/设计模式-极简笔记-6大设计原则.md
